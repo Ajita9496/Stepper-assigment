@@ -1,13 +1,147 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+
+:root {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #02295a;
+  background-color: #d6d9e6;
+
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+html {
+  height: fill-available;
+}
+
+body {
+  min-height: 100vh;
+  min-height: fill-available;
+}
+
+p {
+  color: #9699ab;
+}
+
+p, label {
+  font-size: 15px;
+}
+
+
+.text-primary {
+  color: #02295a;
+}
+
+.text-secondary {
+  color: #473dff;
+}
+
+.text-red {
+  color: #ed3548;
+}
+
+.text-white {
+  color: #fff;
+}
+
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-color-secondary {
+  background-color: #473dff;
+  border: 1px solid #473dff;
+}
+
+.relative {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-between {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column-align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.max-w-30 {
+  max-width: 30rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.pr-2 {
+  padding-right: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.min-height-1 {
+  min-height: 1rem;
+}
+
+.bg-white {
+  background-color: #ffff;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.border-b {
+  border-bottom: 1px solid #d6d9e6;
+}
+
+.border-red {
+  border: 1px solid #ed3548;
+}
+
+  
